@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+font-family: "微软雅黑";
+background-color: #fdfdfd;
+} 
+.cen{
+   margin: 0 auto;  
+}
+.header{
+ width: 980px;
+ height: 617px;
+ padding-top: 10px;
+ background:url(../images/bg.jpg) no-repeat ;
+}
+.nva{
+width: 980px;
+height: 46px;
+background: url(../images/nav.png) no-repeat  ;
+padding:40px 0 0 130px; 
+}
+.nva li{
+  float: left;
+ font-size: 16px;
+ padding: 0 30px; 
+ list-style: none; 
+}
+.nva .m{
+margin-right: 240px;
+}
+.nva li a{
+   text-decoration: none;
+   color: #685649;
+}
+.nva li a:hover{
+    color: #ff8440;
+    text-decoration: underline;
+}
+
+
+.dt{
+width: 980px;
+background: url(../images/dongtai.jpg) 60px top no-repeat;
+margin: 18px auto;
+padding-top: 120px;
+}
+.dt_con{
+width: 294px;
+height: 256px; 
+float: left;
+margin-left: 29px;
+}
+.dt_con h2{
+height:50px;
+padding-left: 10px;
+line-height: 50px;
+font-weight: bold;
+font-size: 16px;
+border-bottom: 1px solid #ddd;
+}
+.dt_con p{
+  height:75px;
+  padding: 10px 0  0 10px;
+  font:14px/20px "微软雅黑"; 
+  color: #bbb;
+  text-indent: 2em;
+  }
+  .dt_con .c{
+    height:5px;
+    }
+
+
+    .yangpian{
+      margin-top: 330px;
+      width: 980px;
+      height: 292px;
+      background: url(../images/xinshang.jpg) no-repeat;
+      padding-top: 170px;
+    }
+    .yangpian .pic{
+      width: 916px;
+      height: 260px;
+    }
+    .yangpian img{
+      margin-left: 56px;
+    }
+
+
+    .banquan{
+      height: 80px;
+      background: url(../images/footer_bg.jpg) repeat-x;
+      color: #fff;
+      text-align: center;
+      line-height: 80px;
+    }
+
+
+    .footer{
+      position: fixed;
+      right: 5%;
+      bottom: 5%;
+    }
